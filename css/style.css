@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  vertical-align: top;
+}
+
+body {
+  background-color: #c2bfbf;
+}
+
+.movie-container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.card {
+  width: calc((100% / 2) - 20px);
+  height: 80%;
+  background-color: #6d6969;
+  padding: 20px;
+}
+
+.img-container {
+  width: 100%;
+}
